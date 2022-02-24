@@ -1,15 +1,15 @@
 function initMap(){
-    const Nelum kuluna = {lat: 6.927114100207588, lng: 79.85833839734991};
+    const Nelum Kuluna = {lat: 6.927114100207588, lng: 79.85833839734991};
     const Camp = {lat: 6.930373068022079, lng: 79.8561496713404};, 
     map = new google.maps.Map(document.getElementById('map'),{
 
-        center: uni,
+        center: Nelum Kuluna,
         zoom: 15,
         mapId: 'd6d1205e9187fda7'
     });
 
     new google.maps.Marker({
-        position: nelum,
+        position: Nelum,
         map,
         title: "Nelum Kuluna"
 
